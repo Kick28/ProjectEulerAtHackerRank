@@ -24,7 +24,7 @@ for a0 in range(t):
     n3 = n // 3                     #Amount of numbers dividing by 3, 5
     n5 = n // 5
     n15 = n // 15                   #Amount of numbers dividing by 3 AND 5
-    s3 = (3 * n3*(n3 + 1)) // 2     #Sum of the first n term of AP
+    s3 = (3 * n3*(n3 + 1)) // 2     #Sum of the first n terms of AP
     s5 = (5 * n5*(n5 + 1)) // 2
     s15 = (15 * n15*(n15 + 1)) // 2 
     result = s3 + s5 - s15          #Substraction S15 because it contains common
