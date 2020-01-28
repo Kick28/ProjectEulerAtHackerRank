@@ -19,8 +19,8 @@ import sys
 
 t = int(input().strip())
 for a0 in range(t):
-    n = int(input().strip())        #Max number to find sum below
-    n = n - 1                       #Making border to ignore exactly n
+    n = int(input().strip())        #Find sum below this n
+    n = n - 1                       #Making border to ignore exactly value of n
     n3 = n // 3                     #Amount of numbers dividing by 3, 5
     n5 = n // 5
     n15 = n // 15                   #Amount of numbers dividing by 3 AND 5
